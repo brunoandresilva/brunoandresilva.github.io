@@ -1,0 +1,12 @@
+{
+  "name": "countdown-whatsapp",
+  "version": "1.0.0",
+  "description": "Send countdown messages to WhatsApp via Twilio",
+  "main": "sendWhatsapp.js",
+  "scripts": {
+    "start": "node sendWhatsapp.js"
+  },
+  "dependencies": {
+    "twilio": "^4.3.0"
+  }
+}
