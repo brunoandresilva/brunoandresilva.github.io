@@ -109,9 +109,9 @@
         secondsEl.textContent = String(seconds).padStart(2, "0");
       }
 
-      // Run immediately, then every 1 second
-      updateCountdown();
+      // Start interval and run immediately
       const intervalId = setInterval(updateCountdown, 1000);
+      updateCountdown();
     </script>
   </body>
 </html>
